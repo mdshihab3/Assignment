@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University Website - Faculty Members</title>
-    <!-- Link to FontAwesome for Icons (Home/Dropdown, Social Media, etc.) -->
+    
     
     
     <style>
@@ -12,20 +12,20 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9; /* Light background for the page */
+            background-color: #f4f4f9; 
         }
 
-        /* --- Global Content Wrapper --- */
+        
         .content-wrapper {
             max-width: 1200px;
             margin: 0 auto; /* Center the content */
             padding: 20px;
         }
 
-        /* --- 1. Top University Banner (Existing Code) --- */
+        
         .banner {
             width: 100%;
-            background: #7188f5; /* Light bluish background (Fully Opaque for Readability) */
+            background: #7188f5; 
             padding: 20px 0;
             display: flex;
             justify-content: space-between;
@@ -43,7 +43,7 @@
             width: 60px;
             height: 60px;
             margin-right: 15px;
-            border-radius: 50%; /* Optional: make logos circular */
+            border-radius: 50%; 
             object-fit: cover;
         }
 
@@ -53,14 +53,14 @@
             text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
         }
 
-        /* --- 2. Navigation Bar (Existing Code) --- */
+        
         .nav {
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 15px; 
             padding: 10px 40px; 
-            background: white; /* Fully Opaque white background for readability */
+            background: white; 
            
         }
 
@@ -78,25 +78,25 @@
             white-space: nowrap; 
         }
 
-        /* Hover Effect */
+        
         .nav-item:not(.active):hover {
             color: #7188f5;
         }
 
-        /* Home icon */
+    
         .nav-item.home {
             font-size: 20px;
             color: #444;
             padding: 5px 10px;
         }
 
-        /* Dropdown Arrow Styling */
+    
         .dropdown .fa-caret-down {
             font-size: 10px;
             margin-left: 5px;
         }
 
-        /* Highlighted / Active Item */
+        
         .nav-item.active {
             background: #6c80ff; 
             color: white;
@@ -105,7 +105,7 @@
             font-weight: 500;
         }
 
-        /* --- 3. Hero Banner (Existing Code) --- */
+        
         .hero-banner {
             background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assests/2025-02-25-c0182b_183512757.jpg');
             background-size: cover;
@@ -150,7 +150,7 @@
             font-weight: bold;
         }
         
-        /* --- 4. Dean's Message Section (Existing Code) --- */
+        
         .dean-message-section {
             padding: 20px 0;
             background: white;
@@ -200,7 +200,7 @@
             object-fit: cover;
         }
         
-        /* --- 5. Faculty People List Section (Existing Code) --- */
+        
         .faculty-section-container {
             background-color: #f0f5ff; 
             padding: 80px 0; 
@@ -229,7 +229,7 @@
             margin: 0 auto 50px auto; 
         }
 
-        /* --- 6. List of Departments Section (Existing Code) --- */
+    
 
         .department-heading-container {
             text-align: center;
@@ -303,9 +303,9 @@
             text-transform: uppercase;
         }
 
-        /* --- 7. Footer Section (New Code to match the image: image_ed7981.png) --- */
+        
         .main-footer {
-            background-color: #0b2341; /* Very dark blue from the image */
+            background-color: #0b2341; 
             color: white;
             padding-top: 50px;
             margin-top: 40px;
@@ -316,12 +316,12 @@
             justify-content: space-between;
             flex-wrap: wrap;
             padding-bottom: 30px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Light separator */
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
         }
 
         .footer-column {
-            width: 25%; /* Four columns layout */
-            min-width: 250px; /* Ensure columns don't get too small on tablets */
+            width: 25%; 
+            min-width: 250px; 
             padding: 20px 0;
         }
 
@@ -373,8 +373,8 @@
         }
 
         .footer-links li:before {
-            content: "»"; /* Custom bullet point matching the image */
-            color: #7188f5; /* Blue color */
+            content: "»"; 
+            color: #7188f5; 
             margin-right: 10px;
             font-weight: bold;
         }
@@ -383,8 +383,8 @@
             color: #7188f5;
         }
 
-        /* Social Media Icons */
-        ..social-links {
+        
+        .social-links {
   display: flex;
   gap: 10px;
   margin-top: 20px;
@@ -409,7 +409,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(0) invert(1); /* Makes icon white-like if colored */
+  filter: brightness(0) invert(1); 
   transition: filter 0.3s;
 }
 
@@ -419,7 +419,7 @@
 
         /* Footer Bottom (Copyright) */
         .footer-bottom {
-            background-color: #081b31; /* Even darker blue for the bottom strip */
+            background-color: #081b31; 
             text-align: center;
             padding: 15px 0;
             font-size: 14px;
@@ -463,22 +463,22 @@
 </head>
 <body>
 
-    <!-- 1. Top University Banner -->
+    
     <div class="banner">
         <div class="left">
-            <!-- Updated image path to accessible file -->
+            
             <img src="./assests/shihab123.png" class="logo" alt="University Logo">
             <span class="title">UNIVERSITY OF BARISHAL</span>
         </div>
 
         <div class="right">
-            <!-- Updated image path to accessible file -->
+            
             <img src="./assests/logo cse.jpg" class="logo" alt="CSE Logo">
             <span class="title">DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</span>
         </div>
     </div>
     
-    <!-- 2. Navigation Bar -->
+    
     <div class="nav">
         <a href="#" class="nav-item home">
             <i class="fas fa-home"></i>
@@ -494,7 +494,7 @@
         <a href="#" class="nav-item">Contact</a>
     </div>
 
-    <!-- 3. Faculty Members Hero Banner -->
+    
     <div class="hero-banner">
         <h1 class="hero-title">Faculty Members</h1>
         <div class="breadcrumb">
@@ -506,7 +506,7 @@
         </div>
     </div>
     
-    <!-- 4. Dean's Message Section -->
+    
     <div class="content-wrapper">
         <div class="dean-message-section">
             <p class="welcome-label">WELCOME MESSAGE</p>
@@ -535,17 +535,16 @@
         </div>
     </div>
     
-    <!-- 5. Faculty People List Section -->
     <div class="faculty-section-container">
         <div class="faculty-content-centered">
             <h2 class="faculty-heading-title">FACULTY PEOPLE</h2>
             <div class="faculty-separator"></div>
             <p class="no-data-message">No Data Found</p>
-            <!-- Actual faculty member cards would go here -->
+            
         </div>
     </div>
 
-    <!-- 6. List of Departments Section -->
+    
     <div class="department-section">
         <div class="content-wrapper">
             <div class="department-heading-container">
@@ -554,10 +553,10 @@
             </div>
             
             <div class="department-card-grid">
-                <!-- Department Card Example (Matching the image) -->
+                
                 <div class="department-card">
                     <div class="department-image-container">
-                        <!-- Placeholder image matching the style of the original photo -->
+                        
                         <img src="./assests/OIP.webp" ; alt="Department Building">
                     </div>
                     <div class="department-info">
@@ -566,18 +565,18 @@
                     </div>
                 </div>
                 
-                <!-- would add more department cards here -->
+                
                 
             </div>
         </div>
     </div>
     
-    <!-- 7. Footer Section (New Content) -->
+    
     <footer class="main-footer">
         <div class="content-wrapper">
             <div class="footer-top">
                 
-                <!-- Column 1: University Contact Info -->
+                
                 <div class="footer-column contact-info">
     <h3>University Of Barishal</h3>
     <p>Kornokathi, Barishal-8254, Bangladesh</p>
@@ -602,7 +601,7 @@
 </div>
 
 
-                <!-- Column 2: Academics Links -->
+                
                 <div class="footer-column footer-links">
                     <h3>Academics</h3>
                     <ul>
@@ -614,7 +613,7 @@
                     </ul>
                 </div>
 
-                <!-- Column 3: Admission Links -->
+                
                 <div class="footer-column footer-links">
                     <h3>Admission</h3>
                     <ul>
@@ -625,7 +624,7 @@
                     </ul>
                 </div>
 
-                <!-- Column 4: Important Links -->
+                
                 <div class="footer-column footer-links">
                     <h3>Important Links</h3>
                     <ul>
@@ -639,7 +638,7 @@
             </div>
         </div>
         
-        <!-- Footer Bottom Bar -->
+    
         <div class="footer-bottom">
             <span>© 2025 University of Barishal. All Rights Reserved. </span>
             <a href="#" class="credits">Credits</a>
